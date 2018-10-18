@@ -26,6 +26,8 @@ public class Digikey {
 
 			output.println("THE RESULT");
 		}
+		output.close();
+		input.close();
 	}
 
 
