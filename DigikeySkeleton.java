@@ -14,9 +14,6 @@ public class Digikey {
 // 			input = new Scanner(System.in); // for our own tests. make sure to comment out when done
             		output = new PrintWriter("C:\DKC3\problemOut.txt");
         	} catch (Exception e) { System.out.println(e); }
-		
-		String inputPath = ""; // change to actual path
-		String outputPath = "";
 
 		for (int testCase = 0; testCase < 10; testCase++) {
 			try {
